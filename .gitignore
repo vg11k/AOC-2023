@@ -4,3 +4,11 @@ Sujet 1/.vscode/tasks.json
 *.exe
 *.obj
 .vscode/settings.json
+*.sqlite
+*.json
+*.db
+.vs/Advent-of-Code-2023/v16/Browse.VC.opendb
+.vs/Advent-of-Code-2023/v16/Browse.VC.db-wal
+.vs/Advent-of-Code-2023/v16/Browse.VC.db-shm
+*.ipch
+.vs/Advent-of-Code-2023/v16/.suo
