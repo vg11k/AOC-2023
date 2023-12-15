@@ -52,28 +52,6 @@ int main(char * args[]) {
         allLines.push_back(line);
     }
 
-    
-
-    /*istringstream iss(allLines.at(0));
-    istringstream iss2(allLines.at(1));
-    string s;
-
-    string time = "";
-    string distance = "";
-
-    while(getline(iss, s, ' ')) {
-        if(s != "" && s != "Time:") {
-            time += s;
-        }
-    }
-
-    while(getline(iss2, s, ' ')) {
-        if(s != "" && s != "Distance:") {
-            distance += s;
-        }
-    }
-
-    Race r(stoll(time), stoll(distance));*/
      Race r(crappyLineToLongLong(allLines.at(0)),
      crappyLineToLongLong(allLines.at(1)));
      
