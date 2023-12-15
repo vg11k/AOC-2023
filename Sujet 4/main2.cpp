@@ -95,7 +95,6 @@ int main(char * args[]) {
         totalCardsSumByIndex.push_back(1);
     }
 
-    cout << "a" << endl;
     for(int cardIndex = 0; cardIndex < generatedCardsByCardIndex.size(); cardIndex++) {
         int cardAtCurrentIndexGenerateAsMuch = generatedCardsByCardIndex.at(cardIndex);
         int occurenceCurrentIndex = totalCardsSumByIndex.at(cardIndex);
