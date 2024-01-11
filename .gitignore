@@ -12,3 +12,5 @@ Sujet 1/.vscode/tasks.json
 .vs/Advent-of-Code-2023/v16/Browse.VC.db-shm
 *.ipch
 .vs/Advent-of-Code-2023/v16/.suo
+*input.txt
+*example.txt
